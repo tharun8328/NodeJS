@@ -1,0 +1,32 @@
+1.	Create a folder on desktop and create a simple html file in it 
+2.	Open cmd and change directory using cd command 
+		cd desktop
+		$cd csm 66
+3.	To list out elements in folder use '/s' student@LAB332SYS115MINGW64~/Desktop/CSM51(master)
+		$ls
+		text.html
+4.	Initialize git
+		$git init
+	Initialized empty git respository in C:/users/student/Desktop/CSM51/.git/
+	It initiates a local git environment 
+		$git status
+		on Branch Master
+		No commit yet
+		untracked files 
+		text.html
+5.	To add files from working directory to staging area using gitadd command
+		@KAB332-SYS115MINGW
+		$git add text.html
+6.	Check the git status, it will show the status of added files
+		$git status
+		on branch master
+7.	Before saving file in local repository configure the git credential.
+		$git config-- Global username"66" 
+				     user.email " "
+8.	To save the file in local repository, use commit command
+		$git commit -m "Hi"
+9.	Check the git status,to validate a commit command 
+		$git status
+		on branch master
+10.	Connect local repository to remote repository 
+11.	Push the files from local repository to remote repository
