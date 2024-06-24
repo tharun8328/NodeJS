@@ -32,10 +32,6 @@
             <h2>Column3</h2>
             <p>Lorem ipsum dolor , sit amet consectetur adipisicing</p>
         </div>
-        <div class="col-sm-3">
-            <h2>Column4</h2>
-            <p>Lorem ipsum dolor , sit amet consectetur adipisicing</p>
-        </div>
     </div>
 </body>
  
